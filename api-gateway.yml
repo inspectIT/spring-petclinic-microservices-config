@@ -7,7 +7,7 @@ zuul:
     customers-service: /customer/**
     soap-service: /soap/**
     api-gateway: /gateway/**
-    soap-service: /soap/**
+
 
 server:
   port: 8080
