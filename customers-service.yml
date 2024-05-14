@@ -28,7 +28,7 @@ spring:
       on-profile: postgres
   datasource:
     # This URL is overwritten in the config repo and set to the postgres container
-    url: jdbc:postgresql://localhost:5432/customers
+    url: jdbc:postgresql://postgres-customers:5432/customers
     username: novatec
     password: password
     platform: postgresql
