@@ -33,7 +33,7 @@ spring:
     activate:
       on-profile: postgres
   datasource:
-    url: jdbc:postgresql://postgres-visits:5432/vets
+    url: jdbc:postgresql://postgres-vets:5432/vets
     username: novatec
     password: password
   jpa:
