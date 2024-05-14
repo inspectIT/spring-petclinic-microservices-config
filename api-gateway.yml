@@ -5,6 +5,7 @@ zuul:
     vets-service: /vet/**
     visits-service: /visit/**
     customers-service: /customer/**
+    soap-service: /soap/**
     api-gateway: /gateway/**
     soap-service: /soap/**
 
