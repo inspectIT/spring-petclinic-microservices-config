@@ -18,3 +18,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
+# SOAP client configuration (which SOAP server we want to access)
+webservice:
+  client:
+    url: http://soap-service:8877/soap-api/WeatherSoapService_1.0
